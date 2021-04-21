@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif    
+}
+
+header {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 1px;
+    border-radius: 7px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: hidden !important;
+    border-left: hidden !important;
+    border-right: hidden !important;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 243%;
+    background-color:lightgrey;
+    color: rgb(0, 0, 0);
+}
+
+table {
+    padding: 200px;  
+}
+
+main  {
+    padding: 0 280px;
+    width: 100%;
+}  

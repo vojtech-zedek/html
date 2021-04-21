@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabulky v HTML</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/table.css">
 </head>
 <body>
     <header>
         <h1>tabulky v HTML</h1> 
     </header>
     <main>
-        <h2>Slavná osbnost:jmeno prijmeni</h2>
-        <table border="1">
+        <h2>Slavná osbnost:Petr Bezruč</h2>
+        <table>
             <caption>Vizitka slavné osobnosti</caption>
             <thead>
                 <tr>
@@ -23,30 +25,68 @@
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3"><img src="img/petr-bezruc.jpeg" height="370" alt="Petr Bezruč" srcset=""></td>
-                    <td colspan="2">Jméno a příjmení</td>
-                    <td rowspan="4">Díla</td>
+                    <td class="obrazek" rowspan="3"><img src="img/petr-bezruc.jpeg" height="370" alt="Petr Bezruč" srcset=""></td>
+                    <td colspan="2"><h2>Petr Bezruč</h2></td>
+                    <td rowspan="4"><b>Díla:</b> <ul>
+                        <li>Slezské písně
+                        </li>
+                        <li>Slezské číslo
+                        </li>
+                        <li>Přátelům a nepřátelům
+                        </li>
+                        <li>Paralipomena I. 
+                        </li>
+                        <li>Stužkonoska 
+                        </li>
+                    </ul> 
+                     </td>
                 </tr>
                 <tr>
-                    <td>Narození</td>
-                    <td>Umrtí</td>
+                    <td>15.září 1867,Opava,Rakouské císařství</td>
+                    <td>17.února 1958(ve věku 90 let),Olomouc,Československo</td>
                 </tr>
                 <tr>
-                    <td rowspan="" colspan="2">Stručná charakteristika</td>
+                    <td rowspan="" colspan="2">
+                        <ul>
+                        <li>byl slezský (česky píšící) básník</li>
+                        <li>jeho pravé jméno bylo Vladimír Vašek</li>
+                        <li> Jeho dílo je ovlivněno symbolismem a Českou modernou</li>
+                        <li>Je považován za autora jediné básnické sbírky původně nazvané Slezské písně</li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Popisek fotky</td>
+                    <td>Petr Bezruč</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                  <td colspan="4">Odkaz na wikipedii</td>  
+                  <td colspan="4"><a href="https://cs.wikipedia.org/wiki/Petr_Bezru%C4%8D" target="_blank">https://cs.wikipedia.org/wiki/Petr_Bezru%C4%8D</a></td>  
                 </tr>
             </tfoot>
         </table>
+        <h2>značky a atributy tabulky</h2>
+        <dl>
+            <dt>rowspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+            <dt>colspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+            <dt>table</dt>
+            <dd>Značka, která vytvoří ohraničení tabulky</dd>
+            <dt>thead</dt>
+            <dd>Záhlaví tabulky</dd>
+            <dt>tbody</dt>
+            <dd>Tělo tabulky</dd>
+            <dt>tr</dt>
+            <dd>Řada tabulky</dd>
+            <dt>th</dt>
+            <dd>Nadpis sloupce tabulky</dd>
+            <dt>td</dt>
+            <dd>Buňky tabulky</dd>
+        </dl>
     </main> 
     <footer>
-
+        <p>&copy; 2021 - Vojtěch Zedek</p>
     </footer> 
 </body>
 </html>
