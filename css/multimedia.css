@@ -1,0 +1,40 @@
+img {
+    filter: drop-shadow(2px 4px 8px #999999);
+  }
+
+  video {
+    filter: drop-shadow(2px 4px 8px #999999);
+  }
+
+  iframe {
+    filter: drop-shadow(2px 4px 8px #999999);
+  }
+
+  audio {
+      filter: drop-shadow(2px 4px 8px #999999);
+  }
+
+  figcaption a {
+      color: black;
+  } 
+
+  figcaption a:visited {
+      color: black;
+  }
+
+  figure {
+      padding-bottom: 1.2em;
+  }
+
+  .secret {
+    float: right !important;
+    color: #333 !important;
+  }
+
+  .secret:hover {
+      background-color: #333 !important;
+  }
+
+  .secret:visited {
+      color: #333;
+  }

@@ -1,15 +1,10 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: sans-serif    
 }
 
 header {
-    background-color: lightgray;
-    color: black;
-    text-align: center;
+    background-color: rgb(25, 72, 114);
+    color: white;
     padding: 1px;
     border-radius: 7px;
 }
@@ -31,8 +26,16 @@ footer {
 h1 {
     text-align: center;
     font-size: 243%;
-    background-color:lightgrey;
-    color: rgb(0, 0, 0);
+    background-color:rgb(25, 72, 114);
+    color: white;
+}
+
+h2 {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 17.5px;
 }
 
 table {
@@ -42,4 +45,8 @@ table {
 main  {
     padding: 0 280px;
     width: 100%;
-}  
+} 
+
+.center {
+    text-align: center;
+} 
