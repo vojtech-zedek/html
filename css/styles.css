@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: rgb(25, 72, 114);
+    background-color: rgba(169, 101, 224, 0.932);
     color: white;
     padding: 1px;
     border-radius: 7px;
@@ -26,7 +26,7 @@ footer {
 h1 {
     text-align: center;
     font-size: 243%;
-    background-color:rgb(25, 72, 114);
+    background-color: rgba(175, 106, 231, 0.932);
     color: white;
 }
 
