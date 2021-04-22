@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
 body {
-    font-family: sans-serif    
+    font-family: 'Teko', sans-serif;
+}
+
+body { 
+    background-image: url(../img/gradient-blur-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
 }
 
 header {
-    background-color: rgba(169, 101, 224, 0.932);
+    background-color: rgba(150, 139, 160, 0.932) ;
+    padding: 25px;
     color: white;
-    padding: 1px;
-    border-radius: 7px;
 }
 
 footer {
     color: white;
     text-align: center;
-    background-color: lightgray;
+    background-color: rgba(150, 139, 160, 0.932) ;
     padding: 5px;
     bottom: 0;
     left: 0;
@@ -25,17 +33,16 @@ footer {
 
 h1 {
     text-align: center;
-    font-size: 243%;
-    background-color: rgba(175, 106, 231, 0.932);
+    font-size: 400%;
     color: white;
 }
 
 h2 {
-    background-color: lightgray;
+    background-color: rgba(150, 139, 160, 0.932) ;
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
-    font-size: 17.5px;
+    font-size: 30px;
 }
 
 table {
@@ -43,10 +50,45 @@ table {
 }
 
 main  {
-    padding: 0 280px;
     width: 100%;
 } 
 
 .center {
     text-align: center;
+    margin: auto;
+    width: 70%;
+    border: 5px solid white;
+    padding: 10px;
+    background-color:rgb(253, 253, 253);
 } 
+
+.rozcestnik {
+    font-family: 'Teko', sans-serif;
+    background-color:  rgba(150, 139, 160, 0.932);
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.rozcsetnik a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 40px;
+    border: none;
+}
+
+.rozcestnik a:hover {
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+
+.rozcestnik a.active {
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+
+.rozcestnik {
+    font-size: 30px;
+    color: white;
+}
