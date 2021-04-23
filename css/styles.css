@@ -5,7 +5,7 @@ body {
 }
 
 body { 
-    background-image: url(../img/gradient-blur-wallpaper.jpg);
+    background-image: url(../img/stažený\ soubor\ \(1\).jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;   
@@ -13,10 +13,9 @@ body {
 }
 
 header {
-    background-color: rgba(150, 139, 160, 0.932) ;
-    padding: 25px;
+    background-color: rgba(150, 139, 160, 0.932);
+    padding: 10px;
     color: white;
-    padding: 1px;
 }
 
 footer {
@@ -30,7 +29,7 @@ footer {
     border-bottom: hidden !important;
     border-left: hidden !important;
     border-right: hidden !important;
-    border-radius: 8px;
+    border-radius: 0px;
 }
 
 h1 {
@@ -65,15 +64,15 @@ main  {
     background-color:rgb(253, 253, 253);
 } 
 
-.rozcestnik {
+.topnav {
     font-family: 'Teko', sans-serif;
-    background-color:  rgba(150, 139, 160, 0.932);
+    background-color:  rgb(40, 158, 167);
     font-size: 30px;
     color: white;
     overflow: hidden;
 }
 
-.rozcsetnik a {
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -82,41 +81,41 @@ main  {
     border: none;
 }
 
-.rozcestnik a:hover {
-    background-color: rgb(0, 0, 0);
+.topnav a:hover {
+    background-color: rgba(150, 139, 160, 0.932);
     color: white;
 }
 
-.rozcestnik a.active {
-    background-color: rgb(5, 4, 4);
-    color: white;
+.topnav a.active {
+    background-color: rgba(150, 139, 160, 0.932);
+    color: rgb(238, 238, 238);
     text-decoration: none;
 }
 
-.rozcestnik a:link {
+.topnav a:link {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 } 
 
-.rozcestnik a:visited {
+.topnav a:visited {
     text-decoration: none;
-    color: white;
+    color: rgb(243, 239, 239);
 }
 
-.rozcestnik ul {
+.topnav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.rozcestnik>ul>li {
+.topnav>ul>li {
     float: left;
 }
 
-.rozcestnik>ul>li>a {
+.topnav>ul>li>a {
     display: flex;
-    color: white;
+    color: rgba(150, 139, 160, 0.932);
     text-align: center;
     padding: 5px 15px;
     text-decoration: none;

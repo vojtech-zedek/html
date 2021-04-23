@@ -9,16 +9,13 @@ footer {
 
 div.gallery {
     margin: 0.6em;
-    border: 2px solid rgb(255, 255, 255);
     width: 23%;
     float: left;
     background-color: rgba(150, 139, 160, 0.932);
     color: white;
+    border: 2.5px solid black;
 }
   
-div.gallery:hover {
-    border: 2px solid rgb(255, 255, 255);
-}
   
 div.gallery img {
     width: 100%;
@@ -29,6 +26,12 @@ div.gallery img {
 div.desc {
     padding: 1em;
     text-align: center;
+}
+
+#mainsec {
+    padding-top: 1.5em;
+    width: 80%;
+    margin: auto;
 }
 
 @media only screen and (max-width: 1200px){
