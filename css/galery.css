@@ -1,0 +1,55 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+}
+
+div.gallery {
+    margin: 0.6em;
+    border: 2px solid rgb(255, 255, 255);
+    width: 23%;
+    float: left;
+    background-color: rgba(150, 139, 160, 0.932);
+    color: white;
+}
+  
+div.gallery:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border: hidden;
+}
+  
+div.desc {
+    padding: 1em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    #mainsec {
+        width: 90%;
+    }
+
+    div.gallery {
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    div.gallery {
+        width: 43%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    div.gallery {
+        width: 100%;
+    }
+}
+

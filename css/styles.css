@@ -68,6 +68,8 @@ main  {
 .rozcestnik {
     font-family: 'Teko', sans-serif;
     background-color:  rgba(150, 139, 160, 0.932);
+    font-size: 30px;
+    color: white;
     overflow: hidden;
 }
 
@@ -90,12 +92,6 @@ main  {
     color: white;
     text-decoration: none;
 }
-
-.rozcestnik {
-    font-size: 30px;
-    color: white;
-} 
-
 
 .rozcestnik a:link {
     text-decoration: none;
