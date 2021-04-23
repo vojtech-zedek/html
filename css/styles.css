@@ -9,12 +9,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;   
+    margin: 0%;
 }
 
 header {
     background-color: rgba(150, 139, 160, 0.932) ;
     padding: 25px;
     color: white;
+    padding: 1px;
 }
 
 footer {
@@ -51,6 +53,7 @@ table {
 
 main  {
     width: 100%;
+    margin: 0 auto;
 } 
 
 .center {
@@ -58,7 +61,7 @@ main  {
     margin: auto;
     width: 70%;
     border: 5px solid white;
-    padding: 10px;
+    padding: 9px;
     background-color:rgb(253, 253, 253);
 } 
 
@@ -66,7 +69,6 @@ main  {
     font-family: 'Teko', sans-serif;
     background-color:  rgba(150, 139, 160, 0.932);
     overflow: hidden;
-    margin-bottom: 40px;
 }
 
 .rozcsetnik a {
@@ -79,16 +81,51 @@ main  {
 }
 
 .rozcestnik a:hover {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
 .rozcestnik a.active {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(5, 4, 4);
     color: white;
+    text-decoration: none;
 }
 
 .rozcestnik {
     font-size: 30px;
     color: white;
+} 
+
+
+.rozcestnik a:link {
+    text-decoration: none;
+    color: white;
+} 
+
+.rozcestnik a:visited {
+    text-decoration: none;
+    color: white;
 }
+
+.rozcestnik ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.rozcestnik>ul>li {
+    float: left;
+}
+
+.rozcestnik>ul>li>a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+
+
+
